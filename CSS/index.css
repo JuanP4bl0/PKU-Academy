@@ -1,0 +1,733 @@
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: "Bebas Neue", cursive;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.nav__a {
+  text-decoration: none;
+}
+.nav__img {
+  width: 230px;
+  padding-left: 50px;
+}
+.nav__solid {
+  font-size: 28pt;
+  color: black;
+}
+.nav__solid-1 {
+  font-size: 28pt;
+}
+
+.desktop {
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.desktop__a {
+  text-align: center;
+  display: flex;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+.desktop__a:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+
+.image {
+  text-align: center;
+  width: 100vw;
+  height: 100%;
+}
+.image__img {
+  width: 90%;
+  height: 90%;
+}
+
+.bienv {
+  display: none;
+}
+
+.bienvenida {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 70%;
+  height: 50vh;
+  border-radius: 15px;
+}
+.bienvenida__p {
+  font-size: 16pt;
+  padding: 35px;
+  color: white;
+}
+
+.titulo__h3 {
+  margin-left: 15px;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.cursos {
+  width: 90%;
+  height: 60vh;
+  margin: 0 auto;
+}
+.cursos__container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cursos__div {
+  width: 135px;
+  height: 136px;
+  color: white;
+  margin: auto;
+  background-color: black;
+  border-radius: 15px;
+  filter: drop-shadow(0px 10px 10px #544c4c);
+}
+.cursos__img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 8px;
+  top: -70px;
+  border-radius: 15px;
+}
+.cursos__h3 {
+  position: absolute;
+  width: 77px;
+  height: 34px;
+  left: 10px;
+  top: 80px;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.cursos__h3-3 {
+  left: 10px;
+  top: 90px;
+}
+.cursos__h3-4 {
+  left: 10px;
+  top: 90px;
+}
+.cursos__fa-solid {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.quienes__h3 {
+  margin-left: 15px;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.quieness {
+  margin: auto;
+  background-color: black;
+  color: white;
+  width: 70%;
+  height: 50vh;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.quieness__img {
+  display: none;
+}
+.quieness__p {
+  text-align: center;
+  font-size: 13pt;
+  padding: 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+}
+.footer #social {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footer .copy__p {
+  display: none;
+}
+.footer__img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.fa-brands:hover {
+  color: black;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav__img {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .nav__solid {
+    font-size: 35pt;
+    color: black;
+  }
+  .nav__solid-1 {
+    font-size: 35pt;
+  }
+  .desktop {
+    gap: 20px;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .desktop__a {
+    font-size: 15pt;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+  }
+  .desktop__a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }
+  .bienv {
+    display: none;
+  }
+  .bienvenida__p {
+    font-size: 20pt;
+  }
+  .titulo__h3 {
+    padding: 35px;
+    font-size: 20pt;
+  }
+  .cursos__div {
+    width: 160px;
+    height: 160px;
+    color: white;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+    filter: drop-shadow(0px 10px 10px #544c4c);
+  }
+  .cursos__img {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 15px;
+    top: -70px;
+    border-radius: 15px;
+  }
+  .cursos__h3 {
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15pt;
+    line-height: 25px;
+  }
+  .cursos__h3-1 {
+    left: 15px;
+    top: 60px;
+  }
+  .cursos__h3-2 {
+    left: 15px;
+    top: 60px;
+  }
+  .cursos__h3-3 {
+    left: 10px;
+    top: 105px;
+  }
+  .cursos__fa-solid {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+  }
+  .quienes__h3 {
+    padding: 35px;
+    font-size: 20pt;
+    margin-left: 15px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .quieness {
+    margin: auto;
+    color: white;
+    width: 90%;
+    height: 50vh;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .quieness__img {
+    display: block;
+  }
+  .quieness__p {
+    border-right: 2px solid white;
+    display: flex;
+    align-items: center;
+    font-size: 17pt;
+    width: 50%;
+    height: 80%;
+    background-color: #000000;
+  }
+  .footer {
+    margin-top: 50px;
+    background-color: black;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+  }
+  .footer__img {
+    width: 250px;
+    padding-top: 30px;
+  }
+  .fa-brands {
+    color: white;
+    font-size: 45px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  .fa-brands:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .nav {
+    margin-bottom: 35px;
+  }
+  .nav__img {
+    width: 300px;
+    padding-left: 50px;
+  }
+  .nav__solid-1 {
+    font-size: 33pt;
+  }
+  .nav__solid-1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  .desktop {
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .desktop__a {
+    text-align: center;
+    display: flex;
+    padding: 20px 50px 20px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+  }
+  .desktop__a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }
+  .bienv {
+    width: 70%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+  .bienv-p {
+    width: 100%;
+    margin: auto;
+  }
+  .bienv__p {
+    padding: 85px;
+    border-radius: 15px;
+    font-size: 15pt;
+    background-color: black;
+    color: white;
+  }
+  .bienv__img {
+    width: 80%;
+    padding: 50px;
+  }
+  .bienv-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    display: none;
+  }
+  .image__img {
+    width: 60%;
+  }
+  .bienvenida {
+    display: none;
+  }
+  .bienvenida__p {
+    font-size: 25pt;
+  }
+  .titulo__h3 {
+    padding: 25px;
+    font-size: 17pt;
+  }
+  .cursos__container {
+    display: flex;
+  }
+  .cursos__div {
+    width: 160px;
+    height: 160px;
+    color: white;
+  }
+  .cursos__img {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 18px;
+  }
+  .cursos__h3 {
+    position: absolute;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 27px;
+  }
+  .cursos__h3-1 {
+    top: 55px;
+  }
+  .cursos__h3-2 {
+    top: 85px;
+  }
+  .cursos__h3-3 {
+    top: 110px;
+  }
+  .cursos__h3-4 {
+    top: 85px;
+  }
+  .cursos__fa-solid {
+    position: absolute;
+    left: 115px;
+    top: 120px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .cursos__fa-solid:hover {
+    color: black;
+    background-color: white;
+  }
+  .quienes__h3 {
+    padding: 35px;
+    font-size: 25pt;
+    margin-left: 15px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .quieness__p {
+    border-right: 2px solid white;
+    text-align: center;
+    font-size: 20pt;
+    padding: 30px;
+  }
+  .quieness__img {
+    display: block;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    gap: 60px;
+  }
+  .footer #social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .copy__p {
+    display: inline;
+    color: white;
+  }
+  .footer__img {
+    width: 200px;
+    margin-top: 20px;
+  }
+  .fa-brands {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .fa-brands:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+}
+@media (min-width: 1281px) {
+  .nav {
+    margin-bottom: 35px;
+  }
+  .nav__img {
+    width: 270px;
+    padding-left: 50px;
+  }
+  .nav__solid-1 {
+    font-size: 30pt;
+  }
+  .nav__solid-1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  .desktop {
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .desktop__a {
+    text-align: center;
+    display: flex;
+    padding: 10px 50px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    font-size: 17pt;
+    text-decoration: none;
+  }
+  .desktop__a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }
+  .bienv {
+    width: 70%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
+  .bienv-p {
+    width: 100%;
+    margin: auto;
+  }
+  .bienv__p {
+    padding: 85px;
+    border-radius: 15px;
+    font-size: 23pt;
+    background-color: black;
+    color: white;
+  }
+  .bienv__img {
+    width: 80%;
+    padding: 50px;
+  }
+  .bienv-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    display: none;
+  }
+  .bienvenida {
+    display: none;
+  }
+  .titulo__h3 {
+    padding: 25px;
+    font-size: 22pt;
+  }
+  .cursos__container {
+    display: flex;
+  }
+  .cursos__div {
+    width: 170px;
+    height: 170px;
+    color: white;
+    cursor: pointer;
+  }
+  .cursos__img {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 20px;
+  }
+  .cursos__h3 {
+    position: absolute;
+    font-family: "Bebas Neue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 27px;
+  }
+  .cursos__h3-1 {
+    top: 70px;
+  }
+  .cursos__h3-2 {
+    top: 95px;
+  }
+  .cursos__h3-3 {
+    top: 120px;
+  }
+  .cursos__h3-4 {
+    top: 95px;
+  }
+  .cursos__fa-solid {
+    position: absolute;
+    left: 115px;
+    top: 120px;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .cursos__fa-solid:hover {
+    color: black;
+    background-color: white;
+  }
+  .quienes__h3 {
+    padding: 25px;
+    font-size: 25pt;
+    margin-left: 15px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+  }
+  .quieness__p {
+    border-right: 2px solid white;
+    text-align: center;
+    font-size: 20pt;
+    padding: 30px;
+  }
+  .quieness__img {
+    display: block;
+    width: 100%;
+    height: 90%;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    gap: 60px;
+  }
+  .footer #social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .copy__p {
+    display: inline;
+    color: white;
+  }
+  .footer__img {
+    width: 200px;
+    margin-top: 20px;
+  }
+  .fa-brands {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .fa-brands:hover {
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

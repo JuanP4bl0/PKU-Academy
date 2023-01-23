@@ -1,0 +1,415 @@
+body,
+html {
+  scroll-behavior: smooth;
+  font-family: "Bebas Neue", cursive;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+.nav__a {
+  text-decoration: none;
+}
+.nav__img {
+  width: 230px;
+  padding-left: 50px;
+}
+.nav__solid {
+  font-size: 28pt;
+  color: black;
+}
+.nav__solid-1 {
+  font-size: 28pt;
+}
+
+.desktop {
+  display: none;
+}
+
+.login {
+  width: 90vw;
+  height: 70vh;
+  margin: 0 auto;
+  display: flex;
+}
+.login__container {
+  width: 100%;
+  height: 100%;
+}
+.login .left {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.login .left__h3 {
+  padding: 20px 30px 20px;
+  margin-bottom: 25px;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 15px;
+  font-size: 16pt;
+}
+.login .left__btn {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.login .left__btn:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+}
+.login .left__email {
+  text-align: center;
+}
+.login .left__fa-solid {
+  font-size: 17pt;
+}
+.login .left label {
+  font-size: 13pt;
+}
+.login .left input {
+  padding: 25px;
+  border-radius: 15px;
+  margin: 15px 5px 15px;
+  background-color: black;
+  color: gray;
+}
+.login .left__a-cuc {
+  text-decoration: none;
+}
+.login .left__p {
+  display: block;
+  text-align: center;
+}
+.login__right {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav {
+    margin-bottom: 120px;
+  }
+  .nav__a {
+    text-decoration: none;
+  }
+  .nav__img {
+    width: 270px;
+    padding-left: 50px;
+  }
+  .nav__solid {
+    font-size: 30pt;
+    color: black;
+  }
+  .nav__solid-1 {
+    font-size: 30pt;
+  }
+  .login {
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+  }
+  .login__container {
+    width: 100%;
+    height: 100%;
+  }
+  .login .left {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .login .left__h3 {
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    font-size: 17pt;
+  }
+  .login .left__btn {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    font-size: 17pt;
+  }
+  .login .left__email {
+    text-align: center;
+  }
+  .login .left__fa-solid {
+    font-size: 20pt;
+  }
+  .login .left input {
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 15px 20px;
+    background-color: black;
+    color: gray;
+    font-size: 15pt;
+  }
+  .login .left #password {
+    margin-bottom: 50px;
+  }
+  .login .left__a-cuc {
+    text-decoration: none;
+  }
+  .login .left__p {
+    display: block;
+    text-align: center;
+    font-size: 15pt;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .nav {
+    line-height: 5px;
+    margin-bottom: 35px;
+  }
+  .nav__img {
+    width: 200px;
+    padding-left: 10px;
+  }
+  .nav__a-1 {
+    display: none;
+  }
+  .nav__solid-1 {
+    font-size: 25pt;
+  }
+  .nav__solid-1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  .desktop {
+    margin: auto;
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .desktop__a {
+    text-align: center;
+    display: flex;
+    padding: 15px 30px 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13pt;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .desktop__a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }
+  .login {
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+  }
+  .login__container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .login .right {
+    width: 100%;
+    border-radius: 15px;
+    background-image: url("../Backgrounds/bgc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .login .left {
+    width: 100%;
+    text-align: center;
+  }
+  .login .left__h3 {
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    font-size: 15pt;
+  }
+  .login .left__btn {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 12px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 12pt;
+  }
+  .login .left__email {
+    text-align: center;
+  }
+  .login .left__fa-solid {
+    font-size: 15pt;
+  }
+  .login .left input {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 15px 20px;
+    background-color: black;
+    color: gray;
+    font-size: 12pt;
+  }
+  .login .left #password {
+    margin-bottom: 20px;
+  }
+  .login .left__a-cuc {
+    text-decoration: none;
+  }
+  .login .left__p {
+    display: block;
+    text-align: center;
+    font-size: 12pt;
+  }
+}
+@media (min-width: 1281px) {
+  .nav {
+    line-height: 5px;
+    margin-bottom: 35px;
+  }
+  .nav__img {
+    width: 200px;
+    padding-left: 10px;
+  }
+  .nav__a-1 {
+    display: none;
+  }
+  .nav__solid-1 {
+    font-size: 25pt;
+  }
+  .nav__solid-1:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+  .desktop {
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    display: none;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .desktop__a {
+    text-align: center;
+    display: flex;
+    padding: 10px 20px 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15pt;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .desktop__a:hover {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+  }
+  .login {
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+  }
+  .login__container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .login .right {
+    width: 100%;
+    border-radius: 15px;
+    background-image: url("../Backgrounds/bgc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .login .left {
+    width: 100%;
+    text-align: center;
+  }
+  .login .left__h3 {
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 15px;
+    font-size: 17pt;
+  }
+  .login .left__btn {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 15pt;
+  }
+  .login .left__email {
+    text-align: center;
+  }
+  .login .left__fa-solid {
+    font-size: 25pt;
+  }
+  .login .left input {
+    padding: 35px;
+    border-radius: 15px;
+    margin: 20px 15px 20px;
+    background-color: black;
+    color: gray;
+    font-size: 15pt;
+  }
+  .login .left #password {
+    margin-bottom: 60px;
+  }
+  .login .left__a-cuc {
+    text-decoration: none;
+  }
+  .login .left__p {
+    display: block;
+    text-align: center;
+    font-size: 15pt;
+  }
+}
+
+/*# sourceMappingURL=register.css.map */

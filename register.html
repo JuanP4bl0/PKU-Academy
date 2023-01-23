@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="max-width=480px, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/caac178fdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/register.css" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#" class="nav__a-1">
+        <i class="nav__solid fa-solid fa-bars"></i>
+      </a>
+      <a href="./index.html" class="nav__a-2">
+        <img src="./Imgs/logo2.png" alt="Logo" class="nav__img" />
+      </a>
+
+      <a href="login.html" class="nav__a-3">
+        <i class="nav__solid nav__solid-1 fa-regular fa-circle-user"></i>
+      </a>
+    </nav>
+
+    <nav class="desktop">
+      <a href="#" class="desktop__a desktop__a-1"> Inicio </a>
+
+      <a href="cursos.html" class="desktop__a desktop__a-2"> Cursos </a>
+
+      <a href="#quienes" class="desktop__a desktop__a-3"> Informacion </a>
+
+      <a href="#footer__a" class="desktop__a desktop__a-4"> Contacto </a>
+    </nav>
+
+    <section class="login">
+      <div class="login__container">
+        <section class="left">
+          <h3 class="left__h3">Tu Cuenta</h3>
+          <div class="left__formulario">
+            <form action="#">
+                <div class="left__user">
+                    <i class="left__fa-solid fa-solid fa-user-pen"></i>
+                    <input autocomplete="off" placeholder="Nombre de usuario" type="text" name="user" id="user" required>
+                </div>
+
+                <div class="left__email">
+                    <i class="left__fa-solid fa-solid fa-circle-user"></i>
+                    <input autocomplete="off" placeholder="Email o Nombre de usuario" type="email" name="email" id="email" required>
+                </div>
+
+                <div class="left__password">
+                    <i class="left__fa-solid fa-solid fa-key"></i>
+                    <input autocomplete="off" placeholder="8+ Caracteres" type="password" name="password" id="password" required>
+                </div>
+                <button type="submit" class="left__btn">Entrar</button>
+                <div>
+                <p class="left__p">Ya tienes una cuenta?? <a href="./login.html" class="left__a-cuc">Entra aqui </a></p>
+            </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="right"></section>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,543 @@
+body,html {
+    scroll-behavior: smooth;
+    font-family: "Bebas Neue", cursive;
+    box-sizing: border-box;
+    
+  }
+  
+  .nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+  
+    &__a{
+      text-decoration: none;
+    }
+  
+    &__img {
+      width: 230px;
+      padding-left: 50px;
+    }
+  
+    &__solid {
+      font-size: 28pt;
+      color: black;
+    }
+  
+    &__solid-1 {
+      font-size: 28pt;
+    }
+  }
+  
+  .desktop {
+    display: none;
+  }
+
+  .login{
+    width: 90vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    &__container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .left{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        &__h3{
+            padding: 20px 30px 20px;
+            margin-bottom: 25px;
+            background-color: black;
+            display: inline-block;
+            color: white;
+            font-weight: 400;
+            font-style: normal;
+            border-radius: 15px;
+            font-size: 16pt;
+        }
+        
+        &__btn{
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            padding: 15px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+        }
+
+        &__btn:hover{
+          border: 2px solid black;
+          background-color: white;
+          color: black;
+        }
+
+        &__email{
+            text-align: center;
+        }
+
+        &__fa-solid{
+            font-size: 17pt;
+        }
+
+        label{
+            font-size: 13pt;
+        }
+
+        input{
+            padding: 25px;
+            border-radius: 15px;
+            margin: 15px 5px 15px;
+            background-color: black;
+            color: gray;
+        }
+
+        &__a{
+            display: block;
+            text-align: start;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        &__a-cuc{
+            text-decoration: none;
+        }
+
+        &__p{
+            display: block;
+            text-align: end;
+            margin-right: 30px;
+        }
+
+    }
+    align-content: center;
+    // background-color: #333;
+
+
+    &__right{
+        display: none;
+    }
+  }
+
+  // Media queries para tablet
+@media (min-width: 768px) and (max-width: 1024px){
+    .nav {
+      
+        &__a{
+          text-decoration: none;
+        }
+      
+        &__img {
+          width: 270px;
+          padding-left: 50px;
+        }
+      
+        &__solid {
+          font-size: 30pt;
+          color: black;
+        }
+      
+        &__solid-1 {
+          font-size: 30pt;
+        }
+      }
+
+    .login{
+        width: 60vw;
+        height: 70vh;
+        margin: 0 auto;
+        display: flex;
+
+        &__container{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .left{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+    
+            &__h3{
+                padding: 25px;
+                margin-bottom: 25px;
+                background-color: black;
+                display: inline-block;
+                color: white;
+                font-weight: 400;
+                font-style: normal;
+                border-radius: 15px;
+                font-size: 17pt;
+            }
+            
+            &__btn{
+                background-color: black;
+                color: white;
+                border-radius: 15px;
+                padding: 20px;
+                margin-left: 25px;
+                margin-bottom: 50px;
+                font-size: 17pt;
+            }
+    
+            &__email{
+                text-align: center;
+            }
+    
+            &__fa-solid{
+                font-size: 20pt;
+            }
+    
+            label{
+                font-size: 15pt;
+            }
+    
+            input{
+                padding: 30px;
+                border-radius: 15px;
+                margin: 20px 15px 20px;
+                background-color: black;
+                color: gray;
+                font-size: 15pt;
+            }
+
+            #password{
+                margin-bottom: 50px;
+            }
+    
+            &__a{
+                display: block;
+                text-align: start;
+                text-decoration: none;
+                margin-left: 30px;
+                font-size: 15pt;
+            }
+    
+            &__a-cuc{
+                text-decoration: none;
+            }
+    
+            &__p{
+                display: block;
+                text-align: end;
+                margin-right: 30px;
+                font-size: 15pt;
+            }
+        }
+    }
+}
+
+// Media Queries Laptops
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+      .nav {
+        line-height: 5px;
+        margin-bottom: 35px;
+
+    
+        &__img {
+          width: 200px;
+          padding-left: 10px;
+        }
+    
+        &__a-1 {
+          display: none;
+        }
+    
+        &__solid-1 {
+          font-size: 25pt;
+        }
+    
+      
+        &__solid-1:hover{
+          background-color: black;
+          color: white;
+          border-radius: 10px;
+        }
+      }
+    
+      .desktop {
+        margin: auto;
+        width: 30%;
+        height: 50px;
+        display: none;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 40px;
+    
+        &__a {
+          text-align: center;
+          display: flex;
+          padding: 15px 30px 15px;
+          border-radius: 15px;
+          background-color: black;
+          color: #fff;
+          text-decoration: none;
+          font-size: 13pt;
+          font-weight: 400;
+          font-style: normal;
+        }
+    
+        &__a:hover{
+          border: 2px solid black;
+          background-color: white;
+          color: black;
+        }
+      }
+
+    .login{
+        width: 60vw;
+        height: 70vh;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 30px;
+
+        &__container{
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .right{
+            width: 100%;
+            border-radius: 15px;
+            background-image: url('../Backgrounds/bgc.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    
+        .left{
+            width: 100%;
+            text-align: center;
+    
+            &__h3{
+                padding: 10px;
+                margin-bottom: 25px;
+                background-color: black;
+                display: inline-block;
+                color: white;
+                font-weight: 400;
+                font-style: normal;
+                border-radius: 15px;
+                font-size: 15pt;
+            }
+            
+            &__btn{
+                background-color: black;
+                color: white;
+                border-radius: 15px;
+                padding: 12px;
+                margin-left: 25px;
+                margin-bottom: 50px;
+                font-size: 12pt;
+            }
+    
+            &__email{
+                text-align: center;
+            }
+    
+            &__fa-solid{
+                font-size: 15pt;
+            }
+    
+            label{
+                font-size: 12pt;
+            }
+    
+            input{
+                padding: 20px;
+                border-radius: 15px;
+                margin: 20px 15px 20px;
+                background-color: black;
+                color: gray;
+                font-size: 12pt;
+            }
+
+            #password{
+                margin-bottom: 20px;
+            }
+    
+            &__a{
+                display: block;
+                text-align: start;
+                text-decoration: none;
+                margin-left: 30px;
+                font-size: 12pt;
+            }
+    
+            &__a-cuc{
+                text-decoration: none;
+            }
+    
+            &__p{
+                display: block;
+                text-align: end;
+                margin-right: 30px;
+                font-size: 12pt;
+            }
+        }
+    }
+}
+
+// Media Querie para PC
+
+@media (min-width: 1281px){
+  .nav {
+    line-height: 5px;
+    margin-bottom: 35px;
+
+
+    &__img {
+      width: 200px;
+      padding-left: 10px;
+    }
+
+    &__a-1 {
+      display: none;
+    }
+
+    &__solid-1 {
+      font-size: 25pt;
+    }
+
+  
+    &__solid-1:hover{
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+    }
+  }
+
+  .desktop {
+    margin: auto;
+    width: 60%;
+    height: 50px;
+    display: none;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 71px;
+
+    &__a {
+      text-align: center;
+      display: flex;
+      padding: 10px 20px 10px;
+      border-radius: 15px;
+      background-color: black;
+      color: #fff;
+      text-decoration: none;
+      font-size: 15pt;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    &__a:hover{
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+    }
+  }
+
+.login{
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+
+    &__container{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .right{
+        width: 100%;
+        border-radius: 15px;
+        background-image: url('../Backgrounds/bgc.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .left{
+        width: 100%;
+        text-align: center;
+
+        &__h3{
+            padding: 20px;
+            margin-bottom: 25px;
+            background-color: black;
+            display: inline-block;
+            color: white;
+            font-weight: 400;
+            font-style: normal;
+            border-radius: 15px;
+            font-size: 17pt;
+        }
+        
+        &__btn{
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            padding: 15px;
+            margin-left: 25px;
+            margin-bottom: 50px;
+            font-size: 15pt;
+        }
+
+        &__email{
+            text-align: center;
+        }
+
+        &__fa-solid{
+            font-size: 25pt;
+        }
+
+        label{
+            font-size: 15pt;
+        }
+
+        input{
+            padding: 35px;
+            border-radius: 15px;
+            margin: 20px 15px 20px;
+            background-color: black;
+            color: gray;
+            font-size: 15pt;
+        }
+
+        #password{
+            margin-bottom: 60px;
+        }
+
+        &__a{
+            display: block;
+            text-align: start;
+            text-decoration: none;
+            margin-left: 120px;
+            font-size: 15pt;
+        }
+
+        &__a-cuc{
+            text-decoration: none;
+        }
+
+        &__p{
+            display: block;
+            text-align: end;
+            margin-right: 120px;
+            font-size: 15pt;
+        }
+    }
+  }
+}
